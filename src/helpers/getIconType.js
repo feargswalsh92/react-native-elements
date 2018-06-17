@@ -44,6 +44,7 @@ export default type => {
       if (customIcons.hasOwnProperty(type)) {
         return customIcons[type];
       }
+
       return MaterialIcon;
   }
 };
